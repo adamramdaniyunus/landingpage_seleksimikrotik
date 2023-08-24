@@ -12,12 +12,21 @@ body {
 .header {
     height: 500px;
     width: 100%;
-    background-image: url(/assets//images/image.jpg);
+    /* background-image: url(/assets//images/gilang.jpg); */
     /* background: #000; */
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+}
+
+
+.black-screen img {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    background-size: cover;
 }
 
 .header .title-header {
@@ -36,7 +45,7 @@ body {
 }
 
 .about {
-    display: flex; 
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
